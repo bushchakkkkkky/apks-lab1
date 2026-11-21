@@ -1,0 +1,9 @@
+build/
+dist/
+out/
+.vscode/
+.idea/
+*.log
+.env
+*.pem
+*.key
