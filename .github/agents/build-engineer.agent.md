@@ -27,7 +27,7 @@ DevOps & Build Automation Engineer. You turn project requirements into files, bu
 | github-actions | create-actions |
 
 ## Commands
-git-init, create-project, create-build, create-actions, check (read-only), init (orchestrator).
+git-init, create-project, create-build, create-actions, check (read-only), run-init (orchestrator).
 
 ## File rules
 - Create only files described in the skills. Never overwrite a file that already exists and is correct; update it only if it deviates from the skill template, and say what changed.

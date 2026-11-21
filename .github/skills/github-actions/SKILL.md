@@ -5,7 +5,7 @@ description: Create .github/workflows/ci.yml with one matrix job for ubuntu, win
 # Skill: github-actions
 
 ## When to use
-The user runs `/create-actions`, or `/init` reaches step 4. Requires `scripts/ci.sh` and `scripts/ci.bat`.
+The user runs `/create-actions`, or `/run-init` reaches step 4. Requires `scripts/ci.sh` and `scripts/ci.bat`.
 
 ## Inputs
 Verified CI scripts from build-and-test.

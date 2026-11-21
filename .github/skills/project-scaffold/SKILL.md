@@ -5,7 +5,7 @@ description: Create a minimal Hello World C++ project skeleton with README, docs
 # Skill: project-scaffold
 
 ## When to use
-The user runs `/create-project`, or `/init` reaches step 2.
+The user runs `/create-project`, or `/run-init` reaches step 2.
 
 ## Inputs
 - `language` = C++17 (default)

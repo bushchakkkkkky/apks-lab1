@@ -2,7 +2,7 @@
 agent: agent
 description: Orchestrator - run git-init, create-project, create-build, create-actions and check in order, stopping at the first failure.
 ---
-# Command: init (orchestrator)
+# Command: run-init (orchestrator)
 
 ## Preconditions
 - Open workspace is a Git repository; the user is on a `feature/...` branch (warn otherwise).
@@ -18,7 +18,7 @@ description: Orchestrator - run git-init, create-project, create-build, create-a
 ## Rules
 - Fail-fast: never run a step after a failed one; never report success without running `/check`.
 - Each step receives the files created by the previous steps; nothing is deleted or force-overwritten.
-- Running `/init` a second time must not break or duplicate anything (idempotent).
+- Running `/run-init` a second time must not break or duplicate anything (idempotent).
 
 ## Final report
-A summary table: step, status, created/updated files, time. End with "INIT: SUCCESS" only if all five steps passed.
+A summary table: step, status, created/updated files, time. End with "RUN-INIT: SUCCESS" only if all five steps passed.

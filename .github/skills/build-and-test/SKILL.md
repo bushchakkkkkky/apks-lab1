@@ -5,7 +5,7 @@ description: Create CMakeLists.txt, a GoogleTest unit test named BasicAddition a
 # Skill: build-and-test
 
 ## When to use
-The user runs `/create-build`, or `/init` reaches step 3. Requires `src/hello_lib.h` and `src/main.cpp`.
+The user runs `/create-build`, or `/run-init` reaches step 3. Requires `src/hello_lib.h` and `src/main.cpp`.
 
 ## Inputs
 Project tree created by project-scaffold.
