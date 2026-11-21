@@ -9,7 +9,7 @@ This command must NOT create, modify or delete project files (only the temporary
 ## Checks
 1. Manifest `.github/agents/build-engineer.agent.md` exists and contains role, forbidden actions and Definition of Done.
 2. Each skill in `.github/skills/*/SKILL.md` contains: purpose, inputs, outputs, verification, typical failure.
-3. Six prompt files exist; `init.prompt.md` lists commands in the order git-init, create-project, create-build, create-actions, check.
+3. Six prompt files exist; `run-init.prompt.md` lists commands in the order git-init, create-project, create-build, create-actions, check.
 4. Project files exist: `src/main.cpp`, `src/hello_lib.*`, `tests/test_basic.cpp`, `CMakeLists.txt`, `scripts/ci.sh`, `scripts/ci.bat`, `README.md`, `docs/architecture.md`, `docs/usage.md`.
 5. Build and tests pass locally (run the CI script); executable `hello` exists; test `BasicAddition` passed.
 6. `.github/workflows/ci.yml` is valid YAML and contains ubuntu-latest, windows-latest, macos-latest.
