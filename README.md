@@ -14,6 +14,5 @@ Run the agent workflow with `/run-init`. After the build step, run the applicati
 
 # Windows
 dist\hello.exe
-```
-hello
+``
 
